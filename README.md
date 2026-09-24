@@ -40,7 +40,13 @@ La aplicación no necesita servidor, base de datos ni variables secretas. Si el 
 
 - Rutas Península → Canarias de los documentos aportados.
 - Una línea de contenedor por oferta, con cantidad configurable.
-- Madrid vía Huelva, radios terrestres, forraje, BES, seguro, equipos especiales y ajustes manuales.
+- Las cuatro modalidades Muelle/Muelle, Puerta/Muelle, Muelle/Puerta y Puerta/Puerta.
+- Huelva con selección entre Majarabique y terminal de Huelva, zonas A–H, Zona 0 y cálculo ida/vuelta por encima de 200 km.
+- Madrid vía Fuenlabrada, radios terrestres, forraje, BES, IFS regional, seguro y equipos especiales.
+- Enlaces comprobables de Google Maps y propuesta del puerto de Levante con menor distancia introducida.
+- Precio de tarifa y precio final por componente, con responsable, motivo y registro de ajustes por oferta.
 - Las reglas ambiguas se muestran como observaciones o requieren un importe manual.
 - Cada presupuesto conserva una copia de las tarifas con las que se calculó.
 - Los datos comerciales deben revisarse antes de emitir una oferta.
+
+La obtención automática de kilómetros desde Google Routes requiere una credencial de servidor y queda preparada como siguiente integración. En esta versión los kilómetros se introducen desde las rutas verificables de Google Maps para evitar exponer una clave en el navegador. Los arrastres insulares siguen siendo manuales hasta incorporar sus tablas de radios.
