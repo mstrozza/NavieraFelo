@@ -43,7 +43,7 @@ La aplicación no necesita servidor, base de datos ni variables secretas. Si el 
 - Las cuatro modalidades Muelle/Muelle, Puerta/Muelle, Muelle/Puerta y Puerta/Puerta.
 - Huelva con selección entre Majarabique y terminal de Huelva, zonas A–H, Zona 0 y cálculo ida/vuelta por encima de 200 km.
 - Madrid vía Fuenlabrada, radios terrestres, forraje, BES, IFS regional, seguro y equipos especiales.
-- Enlaces comprobables de Google Maps y propuesta del puerto de Levante con menor distancia introducida.
+- Cálculo automático de kilómetros por carretera con geocodificación de OpenStreetMap y rutas OSRM; la aplicación selecciona la zona y el precio del arrastre. Mantiene un enlace directo de Google Maps para comprobar el resultado.
 - Precio de tarifa y precio final por componente, con responsable, motivo y registro de ajustes por oferta.
 - Las reglas ambiguas se muestran como observaciones o requieren un importe manual.
 - Cada presupuesto conserva una copia de las tarifas con las que se calculó.
